@@ -6,3 +6,12 @@ truffle init
 
 -- deploy de contrato na blockchain localhost ganache
 truffle migrate
+
+-- instalar o truffle cli
+npm i -g truffle
+
+-- instalar o ganache cli
+npm i -g ganache
+
+-- instalar o GUI do ganache
+https://archive.trufflesuite.com/ganache/

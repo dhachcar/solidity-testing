@@ -1,0 +1,19 @@
+-- instalando o HardHat
+npm i --save-dev hardhat
+
+-- dando start num projeto hardhat
+npx hardhat
+npx hardhat init
+
+-- compilando os contratos
+npx hardhat compile
+
+-- testando o contrato
+npx hardhat test
+
+-- fazendo deploy do contrato na rede
+npx hardhat ignition deploy ./ignition/modules/Lock.js
+npx hardhat ignition deploy ./ignition/modules/Lock.js --network localhost
+
+-- emulando uma blockchain
+npx hardhat node
