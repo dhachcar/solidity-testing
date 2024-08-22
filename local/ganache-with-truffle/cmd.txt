@@ -1,0 +1,8 @@
+-- iniciar projeto truffle (com pasta de migrations)
+truffle init
+
+-- rodar a blockchain via ganache
+ganache
+
+-- deploy do contrato na blockchain ganache
+truffle migrate

@@ -1,0 +1,8 @@
+-- iniciar blockchain localhost ganache
+ganache
+
+-- iniciar projeto com estrutura truffle
+truffle init
+
+-- deploy de contrato na blockchain localhost ganache
+truffle migrate
